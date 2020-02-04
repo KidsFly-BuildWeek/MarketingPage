@@ -1,0 +1,219 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+html,
+body {
+  font-size: 62.5%;
+}
+.top {
+  display: flex;
+  justify-content: center;
+}
+.top .mainnav {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 2% 0;
+  width: 75%;
+}
+.top .mainnav a {
+  font-size: 1.6rem;
+  color: grey;
+}
+.home {
+  background-image: url("../images/hanson-lu-qNHbXkO3Xbc-unsplash\ \(1\).jpg");
+  background-color: #cccccc;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+}
+.home {
+  width: 88%;
+  display: flex;
+  align-content: center;
+}
+.home .home1 {
+  background: white;
+  width: 35%;
+  margin: 5% 5%;
+  padding: 0 2%;
+}
+.home .home1 h1 {
+  font-size: 5rem;
+  margin: 15% 0 5% 0;
+}
+.home .home1 p {
+  font-size: 3rem;
+  margin: 10% 0;
+}
+.home .home1 button {
+  padding: 5%;
+  width: 100%;
+  margin: 0 0 5% 0;
+}
+.plane {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  margin: 2% auto;
+}
+.plane .homepic {
+  width: 98%;
+  max-height: 50%;
+}
+.whyus {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+}
+.whyus .family {
+  width: 90%;
+}
+.whyus .family .playing {
+  max-width: 100%;
+  width: 98%;
+  padding: 0;
+}
+.whyus .luggage {
+  width: 90%;
+}
+.whyus .luggage .luggage2 {
+  max-width: 100%;
+  width: 98%;
+}
+.whyus .confirm {
+  width: 90%;
+}
+.whyus .confirm .cell {
+  max-width: 100%;
+  width: 98%;
+}
