@@ -132,6 +132,43 @@ html,
 body {
   font-size: 62.5%;
 }
+.kidsfly {
+  width: 70%;
+  margin: 4% auto 5% auto;
+  display: flex;
+  justify-content: center;
+}
+.kidsfly .buildweek {
+  font-size: 7rem;
+}
+.team {
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+.team .team1 {
+  width: 30%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.team .team1 img {
+  width: 100%;
+  margin: 10% auto;
+}
+.team .team1 h2 {
+  font-size: 3rem;
+  margin: 0 auto;
+}
+.codingpic {
+  width: 70%;
+  margin: 0 auto;
+}
+.codingpic img {
+  width: 90%;
+}
 .top {
   display: flex;
   justify-content: center;
@@ -160,34 +197,44 @@ body {
   display: flex;
   align-content: center;
 }
+@media (max-width: 500px) {
+  .home {
+    width: 90%;
+  }
+}
 .home .home1 {
   background: white;
-  width: 35%;
+  width: 25%;
   margin: 5% 5%;
   padding: 0 2%;
 }
+@media (max-width: 500px) {
+  .home .home1 {
+    margin: 25% 5%;
+  }
+}
 .home .home1 h1 {
-  font-size: 6rem;
-  margin: 15% 0 5% 0;
+  font-size: 5rem;
+  margin: 15% 0 10% 0;
 }
 @media (max-width: 500px) {
   .home .home1 h1 {
-    font-size: 1rem;
+    font-size: 4rem;
   }
 }
 .home .home1 p {
-  font-size: 4rem;
-  margin: 10% 0;
+  font-size: 3rem;
+  margin: 15% 0;
 }
 @media (max-width: 500px) {
   .home .home1 p {
-    font-size: 1rem;
+    font-size: 2rem;
   }
 }
 .home .home1 button {
   padding: 5% ;
   width: 100%;
-  margin: 0 0 5% 0;
+  margin: 0 0 2% 0;
   font-size: 2rem;
   background: lightgrey;
 }
@@ -201,65 +248,125 @@ body {
   width: 100%;
   max-height: 50%;
 }
+@media (max-width: 500px) {
+  .plane .homepic {
+    width: 100%;
+  }
+}
 .whyus {
   display: flex;
   justify-content: space-between;
   width: 90%;
   margin: 0 auto;
 }
+@media (max-width: 500px) {
+  .whyus {
+    border: 2px solid red;
+  }
+}
 .whyus .family {
   width: 90%;
+  width: 100%;
 }
-.whyus .family h2 {
+@media (max-width: 500px) {
+  .whyus .family {
+    width: 100%;
+  }
+}
+.whyus h2 {
   font-size: 3rem;
   margin-top: 2.5%;
 }
-.whyus .family p {
+.whyus p {
   font-size: 2rem;
   margin: 4% 0;
   width: 95%;
   padding: 2%;
 }
-.whyus .family .playing {
+@media (max-width: 500px) {
+  .whyus p {
+    padding: 0;
+    width: 100%;
+  }
+}
+.whyus .playing {
   max-width: 100%;
-  width: 99%;
+  width: 88.5%;
   padding: 0;
 }
-.whyus .luggage {
+@media (max-width: 500px) {
+  .whyus .playing {
+    padding: 0;
+    width: 95%;
+  }
+}
+.luggage {
   width: 90%;
 }
-.whyus .luggage .luggage2 {
+@media (max-width: 500px) {
+  .luggage {
+    width: 100%;
+  }
+}
+.luggage .luggage2 {
   max-width: 100%;
   width: 98%;
 }
-.whyus .luggage h2 {
+@media (max-width: 500px) {
+  .luggage .luggage2 {
+    width: 100%;
+  }
+}
+.luggage h2 {
   font-size: 3rem;
   margin-top: 4%;
 }
-.whyus .luggage p {
+.luggage p {
   font-size: 2rem;
   margin: 4% 0;
   width: 95%;
   padding: 2%;
 }
-.whyus .confirm {
+@media (max-width: 500px) {
+  .luggage p {
+    padding: 0;
+    width: 100%;
+  }
+}
+.confirm {
   width: 90%;
 }
-.whyus .confirm .cell {
+@media (max-width: 500px) {
+  .confirm {
+    width: 100%;
+  }
+}
+.confirm .cell {
   max-width: 100%;
   width: 98%;
 }
-.whyus .confirm h2 {
+@media (max-width: 500px) {
+  .confirm .cell {
+    width: 100%;
+  }
+}
+.confirm h2 {
   font-size: 3rem;
   margin-top: 4%;
 }
-.whyus .confirm p {
+.confirm p {
   font-size: 2rem;
   margin: 4% 0;
   width: 95%;
   padding: 2%;
 }
-@media (max-height: 500px) {
+@media (max-width: 500px) {
+  .confirm p {
+    padding: 0;
+    width: 100%;
+  }
+}
+@media (max-width: 500px) {
   .whyus {
     display: flex;
     flex-direction: column;
