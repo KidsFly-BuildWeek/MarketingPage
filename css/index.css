@@ -144,7 +144,7 @@ body {
 }
 .aboutnav .mainnav a {
   font-size: 2.5rem;
-  color: gray;
+  color: #96DB3C;
 }
 @media (max-width: 500px) {
   .aboutnav .mainnav a {
@@ -159,6 +159,7 @@ body {
 }
 .kidsfly .buildweek {
   font-size: 7rem;
+  color: #96DB3C;
 }
 @media (max-width: 500px) {
   .kidsfly .buildweek {
@@ -173,8 +174,6 @@ body {
 }
 .team .team1 {
   width: 30%;
-  display: flex;
-  justify-content: space-between;
   flex-direction: column;
   margin: 0 auto;
 }
@@ -185,6 +184,7 @@ body {
 .team .team1 h2 {
   font-size: 3rem;
   margin: 0 auto;
+  color: #96DB3C;
 }
 @media (max-width: 500px) {
   .team .team1 h2 {
@@ -194,6 +194,7 @@ body {
 .team .team1 h3 {
   font-size: 2.5rem;
   margin: 2%auto;
+  color: #96DB3C;
 }
 @media (max-width: 500px) {
   .team .team1 h3 {
@@ -219,10 +220,10 @@ body {
 }
 .top .mainnav a {
   font-size: 2.5rem;
-  color: grey;
+  color: #96DB3C;
 }
 body {
-  background: 4A8FAA;
+  background: #4A8FAA;
 }
 .home {
   background-image: url("../images/hanson-lu-qNHbXkO3Xbc-unsplash\ \(1\).jpg");
@@ -244,32 +245,36 @@ body {
   }
 }
 .home .home1 {
-  background: white;
+  background: #4FC079;
   width: 25%;
   margin: 5% 5%;
   padding: 0 2%;
+  color: #4FC079;
 }
 @media (max-width: 500px) {
   .home .home1 {
-    margin: 25% 5%;
+    width: 35%;
+    margin: 15% 5%;
   }
 }
-.home .home1 h1 {
+.home .home1 .worryfree {
   font-size: 4.5rem;
   margin: 15% 0 10% 0;
+  color: #4A8FAA;
 }
 @media (max-width: 500px) {
-  .home .home1 h1 {
-    font-size: 2.5rem;
+  .home .home1 .worryfree {
+    font-size: 3.5rem;
   }
 }
-.home .home1 p {
+.home .home1 .schedule {
   font-size: 2.7rem;
   margin: 15% 0;
+  color: #4A8FAA;
 }
 @media (max-width: 500px) {
-  .home .home1 p {
-    font-size: 1.7rem;
+  .home .home1 .schedule {
+    font-size: 2rem;
   }
 }
 .home .home1 button {
@@ -277,7 +282,7 @@ body {
   width: 100%;
   margin: 0 0 2% 0;
   font-size: 2rem;
-  background: light grey;
+  background: #4A8FAA;
 }
 .plane {
   display: flex;
@@ -300,11 +305,6 @@ body {
   width: 90%;
   margin: 0 auto;
 }
-@media (max-width: 500px) {
-  .whyus {
-    border: 2px solid red;
-  }
-}
 .whyus .family {
   width: 90%;
   width: 100%;
@@ -317,12 +317,14 @@ body {
 .whyus h2 {
   font-size: 3rem;
   margin-top: 2.5%;
+  color: #96DB3C;
 }
 .whyus p {
   font-size: 2rem;
   margin: 4% 0;
   width: 95%;
   padding: 2%;
+  color: #96DB3C;
 }
 @media (max-width: 500px) {
   .whyus p {
