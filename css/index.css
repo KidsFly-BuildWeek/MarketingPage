@@ -132,6 +132,25 @@ html,
 body {
   font-size: 62.5%;
 }
+.aboutnav {
+  display: flex;
+  justify-content: center;
+}
+.aboutnav .mainnav {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 2% 0;
+  width: 75%;
+}
+.aboutnav .mainnav a {
+  font-size: 2.5rem;
+  color: grey;
+}
+@media (max-width: 500px) {
+  .aboutnav .mainnav a {
+    font-size: 1.8rem;
+  }
+}
 .kidsfly {
   width: 70%;
   margin: 4% auto 5% auto;
@@ -140,6 +159,11 @@ body {
 }
 .kidsfly .buildweek {
   font-size: 7rem;
+}
+@media (max-width: 500px) {
+  .kidsfly .buildweek {
+    font-size: 3.5rem;
+  }
 }
 .team {
   width: 70%;
@@ -161,6 +185,20 @@ body {
 .team .team1 h2 {
   font-size: 3rem;
   margin: 0 auto;
+}
+@media (max-width: 500px) {
+  .team .team1 h2 {
+    font-size: 1.3rem;
+  }
+}
+.team .team1 h3 {
+  font-size: 2.5rem;
+  margin: 2%auto;
+}
+@media (max-width: 500px) {
+  .team .team1 h3 {
+    font-size: 1rem;
+  }
 }
 .codingpic {
   width: 70%;
