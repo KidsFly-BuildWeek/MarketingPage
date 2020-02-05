@@ -216,7 +216,7 @@ body {
   display: flex;
   justify-content: space-evenly;
   margin: 5% 0 10% 0;
-  width: 75%;
+  width: 100%;
 }
 .top .mainnav a {
   font-size: 2.5rem;
