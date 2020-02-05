@@ -144,7 +144,7 @@ body {
 }
 .aboutnav .mainnav a {
   font-size: 2.5rem;
-  color: grey;
+  color: gray;
 }
 @media (max-width: 500px) {
   .aboutnav .mainnav a {
@@ -153,9 +153,9 @@ body {
 }
 .kidsfly {
   width: 70%;
-  margin: 4% auto 5% auto;
   display: flex;
   justify-content: center;
+  margin: 4% auto 5% auto;
 }
 .kidsfly .buildweek {
   font-size: 7rem;
@@ -174,8 +174,8 @@ body {
 .team .team1 {
   width: 30%;
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
+  flex-direction: column;
   margin: 0 auto;
 }
 .team .team1 img {
@@ -221,6 +221,9 @@ body {
   font-size: 2.5rem;
   color: grey;
 }
+body {
+  background: 4A8FAA;
+}
 .home {
   background-image: url("../images/hanson-lu-qNHbXkO3Xbc-unsplash\ \(1\).jpg");
   background-color: #cccccc;
@@ -252,21 +255,21 @@ body {
   }
 }
 .home .home1 h1 {
-  font-size: 5rem;
+  font-size: 4.5rem;
   margin: 15% 0 10% 0;
 }
 @media (max-width: 500px) {
   .home .home1 h1 {
-    font-size: 4rem;
+    font-size: 2.5rem;
   }
 }
 .home .home1 p {
-  font-size: 3rem;
+  font-size: 2.7rem;
   margin: 15% 0;
 }
 @media (max-width: 500px) {
   .home .home1 p {
-    font-size: 2rem;
+    font-size: 1.7rem;
   }
 }
 .home .home1 button {
@@ -274,7 +277,7 @@ body {
   width: 100%;
   margin: 0 0 2% 0;
   font-size: 2rem;
-  background: lightgrey;
+  background: light grey;
 }
 .plane {
   display: flex;
