@@ -30,7 +30,7 @@ body{
 .home1{
     background: #4FC079;
     width:25%;
-    display:flex;
+  
     margin: 5% 5%;
     padding: 0 2%;
     color: #4FC079;
@@ -57,7 +57,7 @@ body{
         color: #4A8FAA;
         @media @phone{
         font-size: 2.0rem;
-        ;
+        
         }
     }
     button{
@@ -101,7 +101,17 @@ body{
         @media @phone{
             width:100%;
         }
-    }
+        .playing{
+            max-width: 100%;
+            width:96%;
+            padding:0;
+            @media @phone{
+                padding:0;
+                width:95%;
+            }
+            
+        }
+    
     
     h2{
         font-size: 3rem;
@@ -123,19 +133,19 @@ body{
         }
 
     }
-  
-
-    .playing{
-        max-width: 100%;
-        width:88.5%;
-        padding:0;
-        @media @phone{
-            padding:0;
-            width:95%;
-        }
-        
-    }
 }
+
+    // .playing{
+    //     max-width: 100%;
+    //     width:96%;
+    //     padding:0;
+    //     @media @phone{
+    //         padding:0;
+    //         width:95%;
+    //     }
+        
+    // }
+
 .luggage{
     width:90%;
     @media @phone{
@@ -153,12 +163,14 @@ body{
     h2{
         font-size: 3rem;
         margin-top: 4%;
+        color: #96DB3C;
     }
     p{
         font-size: 2rem;
         margin:4% 0;
         width: 95%;
         padding:2%;
+        color: #96DB3C;
         @media @phone{
             padding:0;
             width:100%;
@@ -182,6 +194,7 @@ body{
     h2{
         font-size: 3rem;
         margin-top: 4%;
+        color: #96DB3C;
     }
     
     p{
@@ -189,6 +202,7 @@ body{
         margin:4% 0;
         width: 95%;
         padding:2%;
+        color: #96DB3C;
         @media @phone{
             padding:0;
             width:100%
@@ -201,6 +215,6 @@ body{
         .direction(flex, column);
 }
 }
-    
+}    
 
 
