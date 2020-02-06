@@ -247,7 +247,6 @@ body {
 .home .home1 {
   background: #4FC079;
   width: 25%;
-  display: flex;
   margin: 5% 5%;
   padding: 0 2%;
   color: #4FC079;
@@ -315,103 +314,107 @@ body {
     width: 100%;
   }
 }
-.whyus h2 {
-  font-size: 3rem;
-  margin-top: 2.5%;
-  color: #96DB3C;
-}
-.whyus p {
-  font-size: 2rem;
-  margin: 4% 0;
-  width: 95%;
-  padding: 2%;
-  color: #96DB3C;
-}
-@media (max-width: 500px) {
-  .whyus p {
-    padding: 0;
-    width: 100%;
-  }
-}
-.whyus .playing {
+.whyus .family .playing {
   max-width: 100%;
-  width: 88.5%;
+  width: 96%;
   padding: 0;
 }
 @media (max-width: 500px) {
-  .whyus .playing {
+  .whyus .family .playing {
     padding: 0;
     width: 95%;
   }
 }
-.luggage {
-  width: 90%;
-}
-@media (max-width: 500px) {
-  .luggage {
-    width: 100%;
-  }
-}
-.luggage .luggage2 {
-  max-width: 100%;
-  width: 98%;
-}
-@media (max-width: 500px) {
-  .luggage .luggage2 {
-    width: 100%;
-  }
-}
-.luggage h2 {
+.whyus .family h2 {
   font-size: 3rem;
-  margin-top: 4%;
+  margin-top: 2.5%;
+  color: #96DB3C;
 }
-.luggage p {
+.whyus .family p {
   font-size: 2rem;
   margin: 4% 0;
   width: 95%;
   padding: 2%;
+  color: #96DB3C;
 }
 @media (max-width: 500px) {
-  .luggage p {
+  .whyus .family p {
     padding: 0;
     width: 100%;
   }
 }
-.confirm {
+.whyus .luggage {
   width: 90%;
 }
 @media (max-width: 500px) {
-  .confirm {
+  .whyus .luggage {
     width: 100%;
   }
 }
-.confirm .cell {
+.whyus .luggage .luggage2 {
   max-width: 100%;
   width: 98%;
 }
 @media (max-width: 500px) {
-  .confirm .cell {
+  .whyus .luggage .luggage2 {
     width: 100%;
   }
 }
-.confirm h2 {
+.whyus .luggage h2 {
   font-size: 3rem;
   margin-top: 4%;
+  color: #96DB3C;
 }
-.confirm p {
+.whyus .luggage p {
   font-size: 2rem;
   margin: 4% 0;
   width: 95%;
   padding: 2%;
+  color: #96DB3C;
 }
 @media (max-width: 500px) {
-  .confirm p {
+  .whyus .luggage p {
+    padding: 0;
+    width: 100%;
+  }
+}
+.whyus .confirm {
+  width: 90%;
+}
+@media (max-width: 500px) {
+  .whyus .confirm {
+    width: 100%;
+  }
+}
+.whyus .confirm .cell {
+  max-width: 100%;
+  width: 98%;
+}
+@media (max-width: 500px) {
+  .whyus .confirm .cell {
+    width: 100%;
+  }
+}
+.whyus .confirm h2 {
+  font-size: 3rem;
+  margin-top: 4%;
+  color: #96DB3C;
+}
+.whyus .confirm p {
+  font-size: 2rem;
+  margin: 4% 0;
+  width: 95%;
+  padding: 2%;
+  color: #96DB3C;
+}
+@media (max-width: 500px) {
+  .whyus .confirm p {
     padding: 0;
     width: 100%;
   }
 }
 @media (max-width: 500px) {
-  .whyus {
+  .whyus .whyus {
     display: flex;
     flex-direction: column;
   }
