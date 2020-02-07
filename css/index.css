@@ -247,6 +247,9 @@ body {
 .home .home1 {
   background: #4FC079;
   width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
   margin: 5% 5%;
   padding: 0 2%;
   color: #4FC079;
@@ -258,18 +261,18 @@ body {
   }
 }
 .home .home1 .worryfree {
-  font-size: 4.5rem;
+  font-size: 5.2rem;
   margin: 15% 0 10% 0;
   color: #4A8FAA;
 }
 @media (max-width: 500px) {
   .home .home1 .worryfree {
-    font-size: 3.5rem;
+    font-size: 4.5rem;
   }
 }
 .home .home1 .schedule {
-  font-size: 2.7rem;
-  margin: 15% 0;
+  font-size: 3.2rem;
+  margin: 10% 0;
   color: #4A8FAA;
 }
 @media (max-width: 500px) {
@@ -280,7 +283,7 @@ body {
 .home .home1 button {
   padding: 5% ;
   width: 100%;
-  margin: 0 0 2% 0;
+  margin: 5% 0 2% 0;
   font-size: 2rem;
   background: #4A8FAA;
 }
