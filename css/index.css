@@ -257,21 +257,21 @@ body {
 @media (max-width: 500px) {
   .home .home1 {
     width: 35%;
-    margin: 15% 5%;
+    margin: 20% 5%;
   }
 }
 .home .home1 .worryfree {
-  font-size: 5.2rem;
+  font-size: 4.2rem;
   margin: 15% 0 10% 0;
   color: #4A8FAA;
 }
 @media (max-width: 500px) {
   .home .home1 .worryfree {
-    font-size: 4.5rem;
+    font-size: 3rem;
   }
 }
 .home .home1 .schedule {
-  font-size: 3.2rem;
+  font-size: 2.5rem;
   margin: 10% 0;
   color: #4A8FAA;
 }
@@ -307,6 +307,12 @@ body {
   justify-content: space-between;
   width: 90%;
   margin: 0 auto;
+}
+@media (max-width: 500px) {
+  .whyus {
+    dislpay: flex;
+    flex-direction: column;
+  }
 }
 .whyus .family {
   width: 90%;
